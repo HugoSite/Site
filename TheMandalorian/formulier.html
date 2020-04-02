@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/modal.js"></script>
+    <title>The Mandalorian</title>
+  </head>
+  <body>
+    <nav class="nav2">
+        <ul class="ul2">
+          <li class="li2"> <a class="a2" href="index.html">Home</a></li>
+          <li class="li2"> <a class="a2" href="actors.html">Actors</a></li>
+          <li class="li2"> <a class="a2" href="seasons.html">Episodes</a></li>
+          <li class="li2"> <a class="a2" href="webshop.html">Webshop</a></li>
+        </ul>
+    </nav>
+    <main>
+      <article class="container">
+        <h2> Order </h2>
+        <form>
+          <p class="form"> <label for="firstname"> First Name </label> </p>
+          <input id="firstname" type="text" name="contact" placeholder="e.g. Hugo">
+          <p class="form"> <label for="lastname"> Last Name </label> </p>
+          <input id="lastname" type="text" name="contact" placeholder="e.g. Heijmans">
+          <p class="form"> <label for="country"> Country </label> </p>
+          <input id="country" type="text" name="contact" placeholder="e.g. Netherlands">
+          <p class="form"> <label for="email"> Email Address </label> </p>
+          <input id="email" type="text" name="contact" placeholder="e.g. bruh@gmail.com">
+          <p class="form"> <label for="phone"> Phone Number </label> </p>
+          <input id="phone" type="text" name="contact" placeholder="e.g. 0612345678">
+          <p class="form"> <label for="address"> Address </label> </p>
+          <textarea name="address" id="address" rows="8" cols="50" placeholder="Type your address in this box"></textarea>
+          <button type="button" class="button" id="bruh"> Bestellen</button>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h1>Thank you for your order!</h1>
+            </div>
+          </div>
+        </form>
+      </article>
+    </main>
+  </body>
+</html>
